@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="showId"></div>
+
+
+    <SCript>
+        // for( var num = 100; num <= 500; num++){
+        //     console.log(num);
+        // }
+
+        
+        // for(var num = 2; num <= 100; num+=2){
+        //     console.log(num);
+        // }
+         
+        // for(var num = 1; num <= 100; num+=3){
+        //     console.log(num);
+        // }
+        
+        // for(var num =10; num >=1; num--){
+        //     console.log(num);
+        // }
+
+        // for (var i = 0; i <= 100; i++){
+            // console.log(`${i} is an even number`);
+        //     console.log(i +"is an even number"); 
+        // }
+
+        for (var num =1; num <=100; num++){
+            if(num % 3==0 && num % 5==0){
+                console.log(`${num} FizzBuzz`);
+                document.write(num + ' FizzBuzz ' + ' <br> ');
+            } else if (num % 5==0){
+                console.log(`${num} Buzz`);
+                document.write(num + ' Buzz ' + ' <br> '); 
+            } else if (num % 3==0){
+                console.log(`${num} Fizz`);
+                document.write(num + ' Fizz ' + ' <br> '); 
+            }
+        } 
+    </SCript>
+</body>
+</html>
